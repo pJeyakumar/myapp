@@ -27,6 +27,12 @@ gem "stimulus-rails"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 
+# Bootstrap, Structured CSS classes for HTML elements
+gem "bootstrap", "~> 5.3", ">= 5.3.1"
+
+# Bootstrap From, Structured CSS classes for forms
+gem "bootstrap_form", "~> 5.2"
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
