@@ -33,6 +33,9 @@ gem "bootstrap", "~> 5.3", ">= 5.3.1"
 # Bootstrap From, Structured CSS classes for forms
 gem "bootstrap_form", "~> 5.2"
 
+# Gem for soft deleting Activerecords
+gem "discard", "~> 1.2"
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
@@ -76,3 +79,7 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+gem "cssbundling-rails", "~> 1.3"
+
+gem "jsbundling-rails", "~> 1.2"
