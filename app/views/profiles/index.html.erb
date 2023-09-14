@@ -1,1 +1,5 @@
-<h1>Profile Index<h1>
+<h1>Active Profiles<h1>
+<%= link_to "Create New Profile", new_profile_path, class: "btn btn-primary pe-2 float-end me-2" %>
+<% @all_active_profiles.each do |active_profile| %>
+  <h5>Name: <%= active_profile.full_name %></h5>
+<% end %>

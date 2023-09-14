@@ -1,0 +1,8 @@
+<h1>Creating New Profile</h1>
+<%= bootstrap_form_with(model: Profile.new) do |form| %>
+  <%= form.text_field :first_name %>
+  <%= form.text_field :last_name %>
+  <%= form.email_field :email %>
+  <%= form.phone_field :phone_number %>
+  <%= form.submit class: "btn btn-primary float-end" %>
+<% end %>

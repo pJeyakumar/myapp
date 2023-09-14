@@ -7,5 +7,4 @@ ActiveRecord::Schema[7.0].define(version: 2023_09_10_023133) do
     t.string "email"
     t.string "phone_number"
   end
-
 end
